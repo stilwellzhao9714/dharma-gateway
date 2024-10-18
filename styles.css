@@ -1,0 +1,80 @@
+/* css/styles.css */
+
+body {
+    background-color: #FAF9F6;
+    color: #2C3E50;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #34495E;
+}
+
+.navbar-brand, .nav-link {
+    color: #F1C40F !important;
+}
+
+.nav-link:hover {
+    color: #27AE60 !important;
+}
+
+.hero {
+    background-image: url('../images/hero.jpg'); /* 替換為您的主視覺圖片路徑 */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.footer {
+    background-color: #34495E;
+    color: #F1C40F;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #27AE60;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2ECC71;
+}
+
+.btn-success {
+    background-color: #F1C40F;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #F39C12;
+}
+
+.dedication-calculator {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ECF0F1;
+    border-radius: 8px;
+}
+.dedication-calculator {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 200px;
+    background-color: #ECF0F1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
